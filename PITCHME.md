@@ -2,25 +2,25 @@
 
 ---
 
-# Nepieciešamība un īsa vēsture
+## Nepieciešamība un īsa vēsture
 
 ---
 
 # Pamatprincipi
 
-|||
++++
 
 # Repozitorijs
 
-|||
++++
 
 # Commit
 
-|||
++++
 
 # Branch
 
-|||
++++
 
 # Merge
 
