@@ -2,19 +2,27 @@
 
 ---
 
-## Nepieciešamība un īsa vēsture
+## Kāpēc?
+
++++
+
+### Vienkāršāka sadarbība
+
++++
+
+### Izstrādes procesa pieraksts
+
++++
+
+### Dazādu versiju uzturēšana
 
 ---
 
-# Pamatprincipi
+## Pamatprincipi
 
 +++
 
-# Repozitorijs
-
-+++
-
-# Commit
+# Pull
 
 +++
 
@@ -22,10 +30,42 @@
 
 +++
 
+# Commit
+
++++
+
+# Push
+
++++
+
 # Merge
 
 ---
 
-# Git repozitoriju tiešsaistes krātuve - GitHub
+# GitHub
+
+### Git repozitoriju tiešsaistes krātuve 
+
++++
+
+## Viegla sadarbība
+
++++
+
+## Industrijas standarts
 
 ---
+
+# Skolā
+
++++
+
+### Skolēnu darba procesa novērtēšana
+
++++
+
+### Darbs grupās
+
++++
+
+### Sagatavo reālai darba videi
