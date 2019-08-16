@@ -27,7 +27,7 @@
 Lejupielādē (klonē) repozitoriju lokāli
 
  ```
- git clone https://github.com/<lietotajvards>/<repositorija-nosaukums>.git
+ git clone https://github.com/<vards>/<repo-nosaukums>.git
  ```
 
  piemēram
@@ -42,7 +42,9 @@ Lejupielādē (klonē) repozitoriju lokāli
 
 Esot git repozitorija datnē, pārbauda izmaiņu esamību un lejupielādē izmaiņas
 
-```git pull```
+```
+git pull
+```
 
 +++
 
@@ -50,23 +52,46 @@ Esot git repozitorija datnē, pārbauda izmaiņu esamību un lejupielādē izmai
 
 Esot git repozitorija datnē, parāda repozitorija statusu
 
-```git status```
+```
+git status
+```
 
 +++
 
 ## git branch
 
-Izveido jaunu zaru ar definētu nosaukumu. Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem.
+Izveido jaunu zaru ar definētu nosaukumu. Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem. Zarus nosaukumus parasti veido pēc kāda iepriekš norunāta principa
 
-```git branch -b <zara-nosaukums>```
+```
+git branch -b <zara-nosaukums>
+```
 
 Piemēram:
 
-```git branch -b gd--b123-labojums```
+```
+git branch -b gd--b123-labojums
+```
+
++++
+
+## git add
+
+Izmaiņu pievienošana nenotiek automātiski. Saglabāts fails ar git status komandu parādīsies kā mainīts (salīdzinot ar to, kas bija repozitorijā). Izmainīto failu vai failus jāpievieno ar git add:
+
+Pievieno visus izmainītos failus:
+
+```
+git add .
+```
+
+Pievieno tikai konkrētu datni:
+
+```git add important.h```
 
 +++
 
 ## git commit
+
 
 +++
 
