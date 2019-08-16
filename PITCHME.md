@@ -86,7 +86,9 @@ git add .
 
 Pievieno tikai konkrētu datni:
 
-```git add important.h```
+```
+git add important.h
+```
 
 +++
 
