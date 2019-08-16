@@ -26,11 +26,15 @@
 
 Lejupielādē (klonē) repozitoriju lokāli
 
- ```git clone https://github.com/<lietotajvards>/<repositorija-nosaukums>.git```
+ ```
+ git clone https://github.com/<lietotajvards>/<repositorija-nosaukums>.git
+ ```
 
  piemēram
 
- ```git clone https://github.com/GundegaDekena/startit-git-materiali.git```
+ ```
+ git clone https://github.com/GundegaDekena/startit-git-materiali.git
+ ```
 
 +++
 
@@ -109,7 +113,7 @@ Redzams kad un ko skolēns ir darījis
 ### Darbs grupās
 
 - Viegli darboties pie viena uzdevuma/projekta
-- Redzams cik daudz un bie katrs ir darījis
+- Redzams cik daudz un bieži katrs ir darbojies
 
 +++
 
