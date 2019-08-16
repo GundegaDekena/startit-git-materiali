@@ -14,7 +14,7 @@
 
 +++
 
-### Dazādu versiju uzturēšana
+### Dažādu versiju uzturēšana
 
 ---
 
@@ -22,27 +22,59 @@
 
 +++
 
-# Pull
+## git clone
+
+Lejupielādē (klonē) repozitoriju lokāli
+
+ ```git clone https://github.com/<lietotajvards>/<repositorija-nosaukums>.git```
+
+ piemēram
+
+ ```git clone https://github.com/GundegaDekena/startit-git-materiali.git```
 
 +++
 
-# Branch
+## git pull
+
+Esot git repozitorija datnē, pārbauda izmaiņu esamību un lejupielādē izmaiņas
+
+```git pull```
 
 +++
 
-# Commit
+## git status
+
+Esot git repozitorija datnē, parāda repozitorija statusu
+
+```git status```
 
 +++
 
-# Push
+## git branch
+
+Izveido jaunu zaru ar definētu nosaukumu. Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem.
+
+```git branch -b <zara-nosaukums>```
+
+Piemēram:
+
+```git branch -b gd--b123-labojums```
 
 +++
 
-# Merge
+## git commit
+
++++
+
+## git push
+
++++
+
+## git merge
 
 ---
 
-# GitHub
+## GitHub
 
 ### Git repozitoriju tiešsaistes krātuve 
 
@@ -56,16 +88,33 @@
 
 ---
 
-# Skolā
+## Lietošana skolā
 
 +++
 
-### Skolēnu darba procesa novērtēšana
+### Mājasdarbu vai projektu darbu nodošana
+
+- Var vai nu klonēt repozitoriju vai lejupielādēt kā *.zip
+- Grūti taisnoties, ka darbu "suns apēda" vai "dators pazaudēja" 
+- Redzams izmaiņu laiks
+
++++
+
+### Var viegli sekot skolēnu darba procesam
+
+Redzams kad un ko skolēns ir darījis
 
 +++
 
 ### Darbs grupās
 
+- Viegli darboties pie viena uzdevuma/projekta
+- Redzams cik daudz un bie katrs ir darījis
+
 +++
 
 ### Sagatavo reālai darba videi
+
+- Versiju kontroles sistēmas lieto visur, tām ir līdzīgi pamatprincipi
+- Git ir pašlaik visizplatītākā VCS
+- GitHub ir populārākā tiešsaistes platforma, citām ir līdzīga funkcionalitāte (GitLab, BitBucket)
