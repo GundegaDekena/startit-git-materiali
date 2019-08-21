@@ -33,7 +33,14 @@
 
 +++
 
+@snap[west span-30]
 ![git un VSCode](assets/img/vscode-side-icons.jpg)
+@snap
+
+@snap[east span-70]
+@css[text-green fragment](Datņu saraksta skats)
+@css[text-red fragment](Versiju kontroles skats)
+@snap
 
 +++
 
