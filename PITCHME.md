@@ -117,6 +117,22 @@ git add important.h
 
 ## Industrijas standarts
 
++++
+
+## Vienkāršas mājas lapas publicēšana
+
+---
+
+## Mājas lapa GitHub - kā?
+
+++
+
+- savā repozitorijā izveido zaru 'gh-pages'
+- šajā zarā izveido vismaz vienu datni - 'index.html'
+- citas html, css, js datnes pēc vajadzības
+- atver saiti 'https://pages.github.com/user/repository
+- profit
+
 ---
 
 ## Lietošana skolā
