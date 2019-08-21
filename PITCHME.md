@@ -1,8 +1,19 @@
 # Versiju kontroles sistēmas
+## Git
 
 ---
 
-## Kāpēc?
+@snap[west span-30]
+@box[bg-gold text-white rounded box-padding](Kas tas ir?)
+@snapend
+
+@snap[midpoint span-30]
+@box[bg-gold text-white rounded box-padding](Kāpēc to vajag?)
+@snapend
+
+@snap[east span-30]
+@box[bg-gold text-white rounded box-padding](Kā to lieto?)
+@snapend
 
 +++
 
@@ -19,6 +30,10 @@
 ---
 
 ## Pamatprincipi
+
++++
+
+![git un VSCode](assets/img/vscode-side-icons.jpg)
 
 +++
 
