@@ -1,5 +1,5 @@
-# Versiju kontroles sistēmas
-## Git
+## Versiju kontroles sistēmas
+### Git
 
 ---
 
@@ -15,21 +15,90 @@
 @box[bg-gold text-white rounded box-padding](Kā to lieto?)
 @snapend
 
-+++
+---
 
-### Vienkāršāka sadarbība
-
-+++
-
-### Izstrādes procesa pieraksts
+# Kas tas ir?
 
 +++
 
-### Dažādu versiju uzturēšana
+## Versiju kontrole
+
+@ul
+
+- Līdzīgi save/load - saglabāt un atvērt datnes
+- Līdzīgi undo/redo - atgūt iepriekšējo versiju
+- Daudz jaudīgākas iespējas
+- Vienkārša dažādu versiju apvienošana
+- Rezerves kopijas mākonī un pie citiem izstrādātājiem
+
+@ulend
 
 ---
 
-## Pamatprincipi
+# Kāpēc to vajag?
+
++++
+
+## Izstrādes procesa kontrole
+
++++
+
+## Koda rezerves kopijas
+
++++
+
+## Efektīva sadarbība
+
++++
+
+## Industrijas standarts
+
++++
+
+## Vienkārša mājas lapa GitHub
+
+- https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
+
++++
+
+## Lietošana skolā
+
++++
+
+### Mājasdarbu vai projektu darbu nodošana
+
+- Var vai nu klonēt repozitoriju vai lejupielādēt kā *.zip
+- Grūti taisnoties, ka darbu "suns apēda" vai "dators pazaudēja"
+- Redzams izmaiņu laiks
+
++++
+
+### Var viegli sekot skolēnu darba procesam
+
+Redzams kad un ko skolēns ir darījis
+
++++
+
+### Darbs grupās
+
+- Viegli darboties pie viena uzdevuma/projekta
+- Redzams cik daudz un bieži katrs ir darbojies
+
++++
+
+### Sagatavo reālai darba videi
+
+- Versiju kontroles sistēmas lieto visur, tām ir līdzīgi pamatprincipi
+- Git ir pašlaik visizplatītākā VCS
+- GitHub ir populārākā tiešsaistes platforma, citām ir līdzīga funkcionalitāte (GitLab, BitBucket)
+
+---
+
+# Kā to lieto?
+
++++
+
+TODO shematisks workflow
 
 +++
 
@@ -132,61 +201,6 @@ git add important.h
 
 ## GitHub
 
-### Git repozitoriju tiešsaistes krātuve 
-
-+++
-
-## Viegla sadarbība
-
-+++
-
-## Industrijas standarts
-
-+++
-
-## Vienkāršas mājas lapas publicēšana
+### Git repozitoriju tiešsaistes krātuve
 
 ---
-
-## Mājas lapa GitHub - kā?
-
-++
-
-- savā repozitorijā izveido zaru 'gh-pages'
-- šajā zarā izveido vismaz vienu datni - 'index.html'
-- citas html, css, js datnes pēc vajadzības
-- atver saiti 'https://pages.github.com/user/repository
-- profit
-
----
-
-## Lietošana skolā
-
-+++
-
-### Mājasdarbu vai projektu darbu nodošana
-
-- Var vai nu klonēt repozitoriju vai lejupielādēt kā *.zip
-- Grūti taisnoties, ka darbu "suns apēda" vai "dators pazaudēja" 
-- Redzams izmaiņu laiks
-
-+++
-
-### Var viegli sekot skolēnu darba procesam
-
-Redzams kad un ko skolēns ir darījis
-
-+++
-
-### Darbs grupās
-
-- Viegli darboties pie viena uzdevuma/projekta
-- Redzams cik daudz un bieži katrs ir darbojies
-
-+++
-
-### Sagatavo reālai darba videi
-
-- Versiju kontroles sistēmas lieto visur, tām ir līdzīgi pamatprincipi
-- Git ir pašlaik visizplatītākā VCS
-- GitHub ir populārākā tiešsaistes platforma, citām ir līdzīga funkcionalitāte (GitLab, BitBucket)
