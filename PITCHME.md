@@ -34,7 +34,7 @@
 +++
 
 @snap[west span-30]
-@img[](assets/img/vscode-side-icons.jpg)
+@img[](assets/img/vscode-side-icons.png)
 @snapend
 
 @snap[east span-70]
