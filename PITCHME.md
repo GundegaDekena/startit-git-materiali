@@ -33,13 +33,16 @@
 
 +++
 
-@snap[west span-30]
+@snap[west span-40]
 @img[](assets/img/vscode-side-icons.png)
 @snapend
 
-@snap[east span-70]
+@snap[north span-50]
 @css[text-green fragment](Datņu saraksta skats)
-@css[text-red fragment](Versiju kontroles skats)
+@snapend
+
+@snap[midpoint span-50]
+@css[text-pink fragment](Versiju kontroles skats)
 @snapend
 
 +++
