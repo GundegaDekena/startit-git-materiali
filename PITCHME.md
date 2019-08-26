@@ -89,7 +89,6 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 - Atvieglo sadarbību @note[Grupu darbs ir svarīgs, tā tiek veidoti reāli projekti]
 - Industrijas standarts
 - Koda rezerves kopijas @note[Ja lieto kādu centralizētu repozitoriju]
-- Statiska mājas lapa GitHub par brīvu
 
 @ulend
 
@@ -104,6 +103,7 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 - Var vai nu klonēt ar git vai lejupielādēt kā *.zip
 - Grūti taisnoties, ka darbu "suns apēda" vai "dators pazaudēja"
 - Redzams izmaiņu laiks - redzams kad un ko skolēns ir darījis
+- Statiska mājas lapa GitHub par brīvu
 
 @ulend
 
@@ -123,13 +123,30 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 
 ---
 
-# Kā to lieto?
+## Kā to lieto?
 
 +++
 
-Shematisks workflow
+### Termini
+
+@ul
+
+- Repozitorijs (repository), repo - koda organizācijas vienība, mape
+- Versija (version) - paralēli saglabātas un pieejamas datnes/-ņu satura izmaiņas
+- Kommits (commit) - izmaiņu versijas saglabāšana (process), pati versija
+- Zars (branch) - paralēla izmaiņu versija repozitorijā
+
+@ulend
 
 +++
+
+### Darba plūsma
+
+@img[](assets/img/git-workflow-simple.png)
+
++++
+
+### VSCode integrācija
 
 @snap[west span-40]
 @img[](assets/img/vscode-side-icons.png)
@@ -145,7 +162,7 @@ Shematisks workflow
 
 +++
 
-## Lejupielādē (klonē) repozitoriju lokāli
+### Lejupielādē (klonē) repozitoriju lokāli
 
  ```
  git clone https://github.com/vards/repo-nosaukums.git
