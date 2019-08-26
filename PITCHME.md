@@ -140,6 +140,58 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 
 +++
 
+### Esoša repozitorija pievienošana (fork) savam GitHub kontam
+
+@img[](assets/img/github-fork.png)
+
++++
+
+### Repozitorija klonēšana ar GitHub Desktop
+
+Clone no Desktop aplikācijas (screenshot)
+
+@img[](assets/img/gh-desktop-clone.png)
+
+Atvērt VSCode
+
+@img[](assets/img/gh-desktop-open-vsc.png)
+
++++
+
+### Ja VSCode rāda git error
+
+@img[](assets/img/vscode-git-error.png)
+
+- iekš VSCode - atver Command Palette (Ctrl+Shift+P)
+- raksta "sett", atver "settings.json" datni
+- izveido ierakstu, kur iestatīt "git.exe" atrašanās vietu
+
+### Ierakstam jāizskatās tā
+
+```
+{
+    "git.path": " "
+}
+```
+
+- atrod un atver mapi, kur tika ieinstalēts Git for Windows vai GitHubDesktop
+- atrod "git.exe" atrašanās vietu
+- saglabā "settings.json" datni
+
++++
+
+### Aizver VSCode :)
+
+un
+
+### Atkal atver VSCode caur GitHubDesktop
+
+@img[](assets/img/vscode-git-view.png)
+
+@img[](assets/img/vscode-git-view-light.png)
+
++++
+
 ### Darba plūsma
 
 @img[](assets/img/git-workflow-simple.png)
@@ -148,17 +200,7 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 
 ### VSCode integrācija
 
-@snap[west span-40]
 @img[](assets/img/vscode-side-icons.png)
-@snapend
-
-@snap[north span-50]
-@css[text-green fragment](Datņu saraksta skats)
-@snapend
-
-@snap[midpoint span-50]
-@css[text-pink fragment](Versiju kontroles skats)
-@snapend
 
 +++
 
