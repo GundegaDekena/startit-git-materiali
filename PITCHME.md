@@ -6,20 +6,20 @@
 
 ## git
 
-### GitHub 
+### GitHub
 
 @fa[github fa-3x]
 @snapend
 
-@snap[north-east span-60 text-08]
+@snap[north-east span-60 text-12]
 @box[bg-green text-white box-padding](**Kas** tas ir?)
 @snapend
 
-@snap[east span-60 text-08]
+@snap[east span-60 text-12]
 @box[bg-blue text-white box-padding](**Kāpēc** to vajag?)
 @snapend
 
-@snap[south-east span-60 text-08]
+@snap[south-east span-60 text-12]
 @box[bg-gold text-white box-padding](**Kā** to lieto?)
 @snapend
 
@@ -43,45 +43,45 @@
 
 +++
 
-@snap[north-east 20]
+@snap[north-east span-20]
 @fa[code-branch]
 @snapend
 
-@snap[north 40]
+@snap[north span-40]
 Pazīstamas darbības
 @snapend
 
-@snap[north-east 40]
+@snap[north-east span-40]
 Līdzīgas **git** darbības
 @snapend
 
-@snap[west 20]
+@snap[west span-20]
 **Darbības**
 @snapend
 
-@snap[midpoint 40]
+@snap[midpoint span-40]
 save
 
 load / open
 @snapend
 
-@snap[east 40]
+@snap[east span-40]
 commit / push
 
 pull / checkout
 @snapend
 
-@snap[south-west 20]
-****Jēga**
+@snap[south-west span-20]
+**Jēga**
 @snapend
 
-@snap[south 40]
+@snap[south span-40 text-06]
 saglabāt izmaiņas datnē
 
 atvērt esošu datni
 @snapend
 
-@snap[south-east 40]
+@snap[south-east span-40 text-06]
 saglabāt jaunu versiju vienai vai vairākām datnēm
 
 atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
@@ -259,5 +259,3 @@ git push
 
 - Issuing a pull request
 - Accepting a pull request
-
----
