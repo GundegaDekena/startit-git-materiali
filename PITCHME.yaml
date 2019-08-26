@@ -12,7 +12,7 @@ theme-override: assets/css/PITCHME.css
 # https://gitpitch.com/docs/settings/logo
 #
 logo : assets/img/startit-logo.png
-logo-position : top-right
+logo-position : top-left
 
 #
 # Layout Setting
@@ -34,7 +34,7 @@ theme            : template
 theme-background : [ "linear-gradient(100deg, white 90%, #BE5869 10%)" ]
 theme-headline   : [ "Montserrat", "#BE5869", "none" ]
 theme-byline     : [ "Montserrat", "#111111", "none" ]
-theme-text       : [ "Raleway", "#333", "none" ]
+theme-text       : [ "Montserrat", "#333", "none" ]
 theme-links      : [ "#7FDBFF", "#0074D9" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-code       : [ "Fira Code" ]
