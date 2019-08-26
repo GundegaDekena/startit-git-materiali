@@ -2,26 +2,30 @@
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
 
-@snap[west span-40 text-center]
+@snap[west span-30 text-center]
+
 ## git
-### GitHub
+
+### GitHub 
+
+@fa[github fa-3x]
 @snapend
 
-@snap[north-east span-40 text-08]
+@snap[north-east span-60 text-08]
 @box[bg-green text-white box-padding](**Kas** tas ir?)
 @snapend
 
-@snap[east span-40 text-08]
+@snap[east span-60 text-08]
 @box[bg-blue text-white box-padding](**Kāpēc** to vajag?)
 @snapend
 
-@snap[south-east span-40 text-08]
+@snap[south-east span-60 text-08]
 @box[bg-gold text-white box-padding](**Kā** to lieto?)
 @snapend
 
 ---
 
-# Kas tas ir?
+## Kas tas ir?
 
 +++
 
@@ -40,6 +44,7 @@
 +++
 
 @snap[north-east 20]
+@fa[code-branch]
 @snapend
 
 @snap[north 40]
@@ -50,7 +55,7 @@ Pazīstamas darbības
 Līdzīgas **git** darbības
 @snapend
 
-@snap[east 20]
+@snap[west 20]
 **Darbības**
 @snapend
 
@@ -60,7 +65,7 @@ save
 load / open
 @snapend
 
-@snap[west 40]
+@snap[east 40]
 commit / push
 
 pull / checkout
@@ -84,7 +89,7 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 
 ---
 
-# Kāpēc to vajag?
+## Kāpēc to vajag?
 
 +++
 
