@@ -40,7 +40,7 @@
 +++
 
 @snap[north-east 20]
-@smapend
+@snapend
 
 @snap[north 40]
 Pazīstamas darbības
