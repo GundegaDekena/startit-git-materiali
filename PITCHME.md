@@ -1,18 +1,22 @@
 ## Versiju kontroles sistēmas
-### Git
 
----
+---?color=linear-gradient(90deg, white 50%, black 50%)
 
-@snap[west span-30]
-@box[bg-gold text-white rounded box-padding](Kas tas ir?)
+@snap[west span-40 text-center]
+## git
+### GitHub
 @snapend
 
-@snap[midpoint span-30]
-@box[bg-gold text-white rounded box-padding](Kāpēc to vajag?)
+@snap[north-east span-40 text-08]
+@box[bg-green text-white box-padding](**Kas** tas ir?)
 @snapend
 
-@snap[east span-30]
-@box[bg-gold text-white rounded box-padding](Kā to lieto?)
+@snap[east span-40 text-08]
+@box[bg-blue text-white box-padding](**Kāpēc** to vajag?)
+@snapend
+
+@snap[south-east span-40 text-08]
+@box[bg-gold text-white box-padding](**Kā** to lieto?)
 @snapend
 
 ---
@@ -23,15 +27,72 @@
 
 ## Versiju kontrole
 
-@ul
+@ul[square-bullets]
 
-- Līdzīgi save/load - saglabāt un atvērt datnes
-- Līdzīgi undo/redo - atgūt iepriekšējo versiju
-- Daudz jaudīgākas iespējas
-- Vienkārša dažādu versiju apvienošana
+- Specializēts rīks, ko lieto programmatūras izstrādei
+- Līdzīgi save/load un undo/redo
+- Vienkārša dažādu versiju apvienošana vienai vai daudzām datnēm
+- **Daudz** jaudīgākas iespējas
 - Rezerves kopijas mākonī un pie citiem izstrādātājiem
 
 @ulend
+
++++
+
+@snap[north-east 20]
+@smapend
+
+@snap[north 40]
+Pazīstamas darbības
+@snapend
+
+@snap[noth-east 40]
+Līdzīgas **git** darbības
+@snapend
+
+@snap[east 20]
+
+### Darbības
+
+@snapend
+
+@snap[midpoint 40]
+
+### save
+
+### load / open
+
+@snapend
+
+@snap[west 40]
+
+### commit / push
+
+### pull / checkout
+
+@snapend
+
+@snap[south-west 20]
+
+## Jēga
+
+@snapend
+
+@snap[south 40]
+
+### saglabāt izmaiņas datnē
+
+### atvērt esošu datni
+
+@snapend
+
+@snap[south-east 40]
+
+### saglabāt jaunu versiju vienai vai vairākām datnēm
+
+### atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
+
+@snapend
 
 ---
 
@@ -39,58 +100,39 @@
 
 +++
 
-## Izstrādes procesa kontrole
+## Kāpēc to vajag vispār?
+
+@ul[square-bullets]
+
+- Izstrādes procesa pārskats un attīstība @note[Var redzēt kad kas mainījies]
+- Atvieglo sadarbību @note[Grupu darbs ir svarīgs, tā tiek veidoti reāli projekti]
+- Industrijas standarts
+- Koda rezerves kopijas @note[Ja lieto kādu centralizētu repozitoriju]
+- Statiska mājas lapa GitHub par brīvu
+
+@ulend
 
 +++
 
-## Koda rezerves kopijas
+## Kāpēc to vajag skolā?
 
-+++
+@ul[square-bullets]
 
-## Efektīva sadarbība
-
-+++
-
-## Industrijas standarts
-
-+++
-
-## Vienkārša mājas lapa GitHub
-
-- https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages
-
-+++
-
-## Lietošana skolā
-
-+++
-
-### Mājasdarbu vai projektu darbu nodošana
-
-- Var vai nu klonēt repozitoriju vai lejupielādēt kā *.zip
+- Viegli dalīties ar programmēšanas piemēriem un uzdevumiem
+- Viegla mājasdarbu vai projektu darbu nodošana
+- Var vai nu klonēt ar git vai lejupielādēt kā *.zip
 - Grūti taisnoties, ka darbu "suns apēda" vai "dators pazaudēja"
-- Redzams izmaiņu laiks
+- Redzams izmaiņu laiks - redzams kad un ko skolēns ir darījis
 
 +++
 
-### Var viegli sekot skolēnu darba procesam
+## Kāpēc to vajadzēs pēc skolas?
 
-Redzams kad un ko skolēns ir darījis
-
-+++
-
-### Darbs grupās
-
-- Viegli darboties pie viena uzdevuma/projekta
-- Redzams cik daudz un bieži katrs ir darbojies
-
-+++
-
-### Sagatavo reālai darba videi
-
-- Versiju kontroles sistēmas lieto visur, tām ir līdzīgi pamatprincipi
-- Git ir pašlaik visizplatītākā VCS
-- GitHub ir populārākā tiešsaistes platforma, citām ir līdzīga funkcionalitāte (GitLab, BitBucket)
+- Versiju kontroles sistēmas lieto visur
+- Citām VCS ir līdzīgi pamatprincipi kā git
+- git ir pašlaik visizplatītākā VCS
+- GitHub ir populārākā tiešsaistes git platforma
+- Daudzi darba devēji ņem vērā potenciālo darbinieku GitHub profilus un aktivitāti
 
 ---
 
@@ -98,7 +140,7 @@ Redzams kad un ko skolēns ir darījis
 
 +++
 
-TODO shematisks workflow
+Shematisks workflow
 
 +++
 
@@ -116,35 +158,21 @@ TODO shematisks workflow
 
 +++
 
-## git clone
-
-Lejupielādē (klonē) repozitoriju lokāli
+## Lejupielādē (klonē) repozitoriju lokāli
 
  ```
- git clone https://github.com/<vards>/<repo-nosaukums>.git
+ git clone https://github.com/vards/repo-nosaukums.git
  ```
 
  piemēram
 
  ```
- git clone https://github.com/GundegaDekena/startit-git-materiali.git
+ git clone https://github.com/startitfonds/startit-git-materiali.git
  ```
 
 +++
 
-## git pull
-
-Esot git repozitorija datnē, pārbauda izmaiņu esamību un lejupielādē izmaiņas
-
-```
-git pull
-```
-
-+++
-
-## git status
-
-Esot git repozitorija datnē, parāda repozitorija statusu
+## Repozitorija statuss
 
 ```
 git status
@@ -152,12 +180,22 @@ git status
 
 +++
 
-## git branch
-
-Izveido jaunu zaru ar definētu nosaukumu. Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem. Zarus nosaukumus parasti veido pēc kāda iepriekš norunāta principa
+## Lejupielādē izmaiņas
 
 ```
-git branch -b <zara-nosaukums>
+git pull
+```
+
++++
+
+## Izveido jaunu zaru
+
+Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem.
+
+Zarus nosaukumus parasti veido pēc kāda iepriekš norunāta principa
+
+```
+git branch -b zara-nosaukums
 ```
 
 Piemēram:
@@ -168,39 +206,59 @@ git branch -b gd--b123-labojums
 
 +++
 
-## git add
+## Reģistrē mainītu datni saglabāšanai
 
-Izmaiņu pievienošana nenotiek automātiski. Saglabāts fails ar git status komandu parādīsies kā mainīts (salīdzinot ar to, kas bija repozitorijā). Izmainīto failu vai failus jāpievieno ar git add:
-
-Pievieno visus izmainītos failus:
-
-```
-git add .
-```
-
-Pievieno tikai konkrētu datni:
+- Izmaiņu pievienošana nenotiek automātiski.
+- Saglabāta datne ar git status komandu parādīsies kā mainīta (salīdzinot ar to, kas bija repozitorijā). 
+- Izmainīto datni vai datnes jāpievieno ar **+** vai git add komandu
 
 ```
-git add important.h
+git add . // Pievieno visas izmainītās datnes
+git add important.h // Pievieno tikai konkrētu datni
 ```
 
 +++
 
-## git commit
+## Saglabā reģistrētās datnes jaunā versijā
 
+```
+git commit -m "Izmaiņas aprakstošs komentārs"
+```
 
 +++
 
-## git push
+## Publicē visas versijas (kommitus) tiešsaistes repo
 
-+++
-
-## git merge
+```
+git push
+```
 
 ---
 
 ## GitHub
 
-### Git repozitoriju tiešsaistes krātuve
+### git repozitoriju tiešsaistes krātuve
+
++++
+
+### Jauna repozitorija izveidošana
+
++++
+
+### Repozitorija dublēšana sev - "fork"
+
++++
+
+### Lietotāju pievienošana un tiesības
+
+- Lietotāja pievienošana
+- Lietotāja tiesības
+
++++
+
+### Izmaiņu pievienošanas pieprasījums
+
+- Issuing a pull request
+- Accepting a pull request
 
 ---
