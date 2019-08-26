@@ -140,43 +140,47 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 
 +++
 
-### Esoša repozitorija pievienošana (fork) savam GitHub kontam
+Esoša repozitorija pievienošana (fork) savam GitHub kontam
 
 @img[](assets/img/github-fork.png)
 
 +++
 
-### Repozitorija klonēšana ar GitHub Desktop
-
-Clone no Desktop aplikācijas (screenshot)
+Repozitorija klonēšana ar GitHub Desktop
 
 @img[](assets/img/gh-desktop-clone.png)
 
-Atvērt VSCode
++++
+
+Repo mapes atvēršana VSCode
 
 @img[](assets/img/gh-desktop-open-vsc.png)
 
 +++
 
-### Ja VSCode rāda git error
+### Ja VSCode rāda git error 
 
 @img[](assets/img/vscode-git-error.png)
 
++++
+
 - iekš VSCode - atver Command Palette (Ctrl+Shift+P)
-- raksta "sett", atver "settings.json" datni
+- atrod un atver "settings.json" datni
 - izveido ierakstu, kur iestatīt "git.exe" atrašanās vietu
 
-### Ierakstam jāizskatās tā
++++
+
+- atrod un atver mapi, kur tika ieinstalēts "Git for Windows" vai GitHubDesktop
+- atrod "git.exe" atrašanās vietu
+- saglabā "settings.json" datni
+
+Ierakstam jāizskatās tā:
 
 ```
 {
-    "git.path": " "
+    "git.path": "C:/ "
 }
 ```
-
-- atrod un atver mapi, kur tika ieinstalēts Git for Windows vai GitHubDesktop
-- atrod "git.exe" atrašanās vietu
-- saglabā "settings.json" datni
 
 +++
 
@@ -184,7 +188,7 @@ Atvērt VSCode
 
 un
 
-### Atkal atver VSCode caur GitHubDesktop
+### Atkal atver VSCode @note[caur Desktop vaiu vienkārši]
 
 @img[](assets/img/vscode-git-view.png)
 
