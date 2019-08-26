@@ -229,7 +229,7 @@ Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem.
 @img[](assets/img/gh-desktop-branching.png)
 
 ```
-git branch -b gd--b123-labojums
+git checkout -b gd--b123-labojums
 ```
 
 +++
@@ -304,7 +304,6 @@ git pull
 - Issuing a pull request
 - Accepting a pull request
 
++++
+
 ### Merging
-
-
-
