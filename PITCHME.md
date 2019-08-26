@@ -206,14 +206,12 @@ Ierakstam jāizskatās tā:
 
 ### Lejupielādē (klonē) repozitoriju lokāli
 
+ @img[](assets/img/github-repo-menu.png)
+ 
+ @img[](assets/img/gh-desktop-clone.png)
+ 
  ```
  git clone https://github.com/vards/repo-nosaukums.git
- ```
-
- piemēram
-
- ```
- git clone https://github.com/startitfonds/startit-git-materiali.git
  ```
 
 +++
@@ -222,13 +220,7 @@ Ierakstam jāizskatās tā:
 
 Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem.
 
-Zarus nosaukumus parasti veido pēc kāda iepriekš izdomāta un norunāta principa
-
-```
-git branch -b zara-nosaukums
-```
-
-Piemēram:
+@img[](assets/img/gh-desktop-branching.png)
 
 ```
 git branch -b gd--b123-labojums
@@ -236,7 +228,7 @@ git branch -b gd--b123-labojums
 
 +++
 
-## Reģistrē mainītu datni saglabāšanai
+### Reģistrē mainītu datni saglabāšanai
 
 - Izmaiņu pievienošana repo nenotiek automātiski.
 - Mainīta datne būs iezīmēta (**M**). 
@@ -245,7 +237,7 @@ git branch -b gd--b123-labojums
 
 +++
 
-## Saglabā reģistrētās datnes jaunā versijā
+### Saglabā reģistrētās datnes jaunā versijā
 
 @img[](assets/img/vscode-git-commit.png)
 
@@ -256,10 +248,22 @@ git commit -m "Izmaiņas aprakstošs komentārs"
 
 +++
 
-## Publicē visas versijas (kommitus) tiešsaistes repo
+### Publicē visas versijas (kommitus) tiešsaistes repo
+
+@img[](assets/img/gh-desktop-push.png)
 
 ```
 git push
+```
+
++++
+
+### Publicē visas versijas (kommitus) tiešsaistes repo
+
+@img[](assets/img/gh-desktop-pull-changes.png)
+
+```
+git pull
 ```
 
 ---
