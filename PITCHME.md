@@ -27,7 +27,7 @@
 
 ## Versiju kontrole
 
-@ul[square-bullets]
+@ul
 
 - Specializēts rīks, ko lieto programmatūras izstrādei
 - Līdzīgi save/load un undo/redo
@@ -46,52 +46,40 @@
 Pazīstamas darbības
 @snapend
 
-@snap[noth-east 40]
+@snap[north-east 40]
 Līdzīgas **git** darbības
 @snapend
 
 @snap[east 20]
-
-### Darbības
-
+**Darbības**
 @snapend
 
 @snap[midpoint 40]
+save
 
-### save
-
-### load / open
-
+load / open
 @snapend
 
 @snap[west 40]
+commit / push
 
-### commit / push
-
-### pull / checkout
-
+pull / checkout
 @snapend
 
 @snap[south-west 20]
-
-## Jēga
-
+****Jēga**
 @snapend
 
 @snap[south 40]
+saglabāt izmaiņas datnē
 
-### saglabāt izmaiņas datnē
-
-### atvērt esošu datni
-
+atvērt esošu datni
 @snapend
 
 @snap[south-east 40]
+saglabāt jaunu versiju vienai vai vairākām datnēm
 
-### saglabāt jaunu versiju vienai vai vairākām datnēm
-
-### atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
-
+atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 @snapend
 
 ---
@@ -100,9 +88,9 @@ Līdzīgas **git** darbības
 
 +++
 
-## Kāpēc to vajag vispār?
+### Kāpēc to vajag vispār?
 
-@ul[square-bullets]
+@ul
 
 - Izstrādes procesa pārskats un attīstība @note[Var redzēt kad kas mainījies]
 - Atvieglo sadarbību @note[Grupu darbs ir svarīgs, tā tiek veidoti reāli projekti]
@@ -114,9 +102,9 @@ Līdzīgas **git** darbības
 
 +++
 
-## Kāpēc to vajag skolā?
+### Kāpēc to vajag skolā?
 
-@ul[square-bullets]
+@ul
 
 - Viegli dalīties ar programmēšanas piemēriem un uzdevumiem
 - Viegla mājasdarbu vai projektu darbu nodošana
@@ -124,15 +112,21 @@ Līdzīgas **git** darbības
 - Grūti taisnoties, ka darbu "suns apēda" vai "dators pazaudēja"
 - Redzams izmaiņu laiks - redzams kad un ko skolēns ir darījis
 
+@ulend
+
 +++
 
-## Kāpēc to vajadzēs pēc skolas?
+### Kāpēc to vajadzēs pēc skolas?
+
+@ul
 
 - Versiju kontroles sistēmas lieto visur
 - Citām VCS ir līdzīgi pamatprincipi kā git
 - git ir pašlaik visizplatītākā VCS
 - GitHub ir populārākā tiešsaistes git platforma
 - Daudzi darba devēji ņem vērā potenciālo darbinieku GitHub profilus un aktivitāti
+
+@ulend
 
 ---
 
