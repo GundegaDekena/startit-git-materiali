@@ -43,7 +43,7 @@
 
 +++
 
-@snap[north-east span-20]
+@snap[north-west span-20]
 @fa[code-branch]
 @snapend
 
