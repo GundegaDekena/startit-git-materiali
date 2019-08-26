@@ -43,11 +43,7 @@
 
 +++
 
-@snap[north-west span-20]
-@fa[code-branch]
-@snapend
-
-@snap[north span-40]
+@snap[north-west span-50]
 Pazīstamas darbības
 @snapend
 
@@ -55,11 +51,7 @@ Pazīstamas darbības
 Līdzīgas **git** darbības
 @snapend
 
-@snap[west span-20]
-**Darbības**
-@snapend
-
-@snap[midpoint span-40]
+@snap[west span-40]
 save
 
 load / open
@@ -71,11 +63,7 @@ commit / push
 pull / checkout
 @snapend
 
-@snap[south-west span-20]
-**Jēga**
-@snapend
-
-@snap[south span-40 text-06]
+@snap[south-west span-40 text-06]
 saglabāt izmaiņas datnē
 
 atvērt esošu datni
