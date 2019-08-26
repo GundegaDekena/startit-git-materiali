@@ -258,7 +258,7 @@ git push
 
 +++
 
-### Publicē visas versijas (kommitus) tiešsaistes repo
+### Lejupielādē visas izmaiņas no tiešsaistes repo
 
 @img[](assets/img/gh-desktop-pull-changes.png)
 
