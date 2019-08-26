@@ -184,11 +184,7 @@ Ierakstam jāizskatās tā:
 
 +++
 
-### Aizver VSCode :)
-
-un
-
-### Atkal atver VSCode @note[caur Desktop vaiu vienkārši]
+### Aizver un atkal atver VSCode
 
 @img[](assets/img/vscode-git-view.png)
 
@@ -196,15 +192,15 @@ un
 
 +++
 
-### Darba plūsma
-
-@img[](assets/img/git-workflow-simple.png)
-
-+++
-
 ### VSCode integrācija
 
 @img[](assets/img/vscode-side-icons.png)
+
++++
+
+### Darba plūsma
+
+@img[](assets/img/git-workflow-simple.png)
 
 +++
 
@@ -222,27 +218,11 @@ un
 
 +++
 
-## Repozitorija statuss
-
-```
-git status
-```
-
-+++
-
-## Lejupielādē izmaiņas
-
-```
-git pull
-```
-
-+++
-
-## Izveido jaunu zaru
+### Izveido jaunu zaru
 
 Darbojas kā virtuāla kopija visai repozitorijas struktūrai un datiem.
 
-Zarus nosaukumus parasti veido pēc kāda iepriekš norunāta principa
+Zarus nosaukumus parasti veido pēc kāda iepriekš izdomāta un norunāta principa
 
 ```
 git branch -b zara-nosaukums
@@ -258,20 +238,19 @@ git branch -b gd--b123-labojums
 
 ## Reģistrē mainītu datni saglabāšanai
 
-- Izmaiņu pievienošana nenotiek automātiski.
-- Saglabāta datne ar git status komandu parādīsies kā mainīta (salīdzinot ar to, kas bija repozitorijā). 
-- Izmainīto datni vai datnes jāpievieno ar **+** vai git add komandu
-
-```
-git add . // Pievieno visas izmainītās datnes
-git add important.h // Pievieno tikai konkrētu datni
-```
+- Izmaiņu pievienošana repo nenotiek automātiski.
+- Mainīta datne būs iezīmēta (**M**). 
+- Izmainīto datni vai datnes jāpievieno "staging" sarakstam.
+- Kad pievienotas visas datnes, veic "commit"
 
 +++
 
 ## Saglabā reģistrētās datnes jaunā versijā
 
+@img[](assets/img/vscode-git-commit.png)
+
 ```
+git add .
 git commit -m "Izmaiņas aprakstošs komentārs"
 ```
 
