@@ -140,6 +140,12 @@ atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
 
 +++
 
+### GitHub
+
+git repozitoriju tiešsaistes krātuve
+
++++
+
 Esoša repozitorija pievienošana (fork) savam GitHub kontam
 
 @img[](assets/img/github-fork.png)
@@ -268,17 +274,21 @@ git pull
 
 ---
 
-## GitHub
-
-### git repozitoriju tiešsaistes krātuve
+## Vēl par git un GitHub
 
 +++
 
 ### Jauna repozitorija izveidošana
 
+- var to darīt lokāli ar "git init"
+- vienkāršāk ir to darīt caur GitHub un td veikt "clone"
+
 +++
 
-### Repozitorija dublēšana sev - "fork"
+### Citu lietotāju repozitorija dublēšana
+
+- "fork" - izveido savu repozitoriju, kas ir kopija
+- ir visas tiesības savu repo un saturu mainīt
 
 +++
 
@@ -293,3 +303,8 @@ git pull
 
 - Issuing a pull request
 - Accepting a pull request
+
+### Merging
+
+
+
