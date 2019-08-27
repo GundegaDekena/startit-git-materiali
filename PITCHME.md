@@ -43,37 +43,7 @@
 
 +++
 
-@snap[north-west span-50]
-Pazīstamas darbības
-@snapend
-
-@snap[north-east span-40]
-Līdzīgas **git** darbības
-@snapend
-
-@snap[west span-40]
-save
-
-load / open
-@snapend
-
-@snap[east span-40]
-commit / push
-
-pull / checkout
-@snapend
-
-@snap[south-west span-40 text-06]
-saglabāt izmaiņas datnē
-
-atvērt esošu datni
-@snapend
-
-@snap[south-east span-40 text-06]
-saglabāt jaunu versiju vienai vai vairākām datnēm
-
-atjaunot jaunāko vai iepriekšējo versiju vienai vai vairākām datnēm
-@snapend
+@img[](assets/img/git-tabula.png)
 
 ---
 
